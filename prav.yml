@@ -3,7 +3,7 @@ kind: API                      # gate #1
 metadata:
   name: pentest-soap-ssrf
   annotations:
-    wsdl: http://169.254.169.254/latest/meta-data/   # gate #4 — THE SSRF target (not allow-listed)
+    wsdl: https://raw.githubusercontent.com/testerprav/pravtest/refs/heads/main/test.wsdl   # gate #4 — THE SSRF target (not allow-listed)
 spec:
   type: soap                   # gate #2
   lifecycle: experimental
