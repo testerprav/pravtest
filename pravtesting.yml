@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: poc
   description:
-    $json: https://github.com/testerprav/pravtest/tree/main
+    $text: https://raw.githubusercontent.com/testerprav/pravtest/refs/heads/main/test.txt
 spec:
   type: service          # required for Component
   lifecycle: experimental # required for Component
