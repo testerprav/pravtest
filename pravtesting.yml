@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: poc
+  description:
+    $json: https://github.com/testerprav/pravtest/tree/main
+spec:
+  type: service          # required for Component
+  lifecycle: experimental # required for Component
+  owner: guest            # required for Component
