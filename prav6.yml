@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: poc
+  description:
+    $text: https://va.ghe.com/software/lighthouse-va-profile/blob/main/va-profile-services-client/src/main/java/gov/va/api/lighthouse/vaprofileclient/HealthCheckCache.java
+spec:
+  type: service          # required for Component
+  lifecycle: experimental # required for Component
+  owner: guest            # required for Component
